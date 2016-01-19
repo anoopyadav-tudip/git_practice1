@@ -1,0 +1,15 @@
+1)create folder(clone) in d drive
+2)go to d drive
+3)go in folder(clone)
+4)git clone path_of_saurab_url .(dot)//making clone of saurab directoery
+5)check clone folder( saurabh files is avail or not)
+
+
+
+
+1)create new repository on github.com
+2)check (public & read me)
+3)create folder(clone1) in d drive
+4)open cmd
+5)git clone path_of_clone1_url .(dot)//making clone of ur directoery
+6)check clone folder( saurabh files is avail or not)
