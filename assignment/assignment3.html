@@ -31,19 +31,22 @@
 					
 					<label>First Name * </label>   
 					<input type="text" id="firstname" size="30" placeholder="Enter your first name" required class="in">
-					<label class="error-msg hide">Invalid Name !</label>
+					<label class="error-fname hide">Invalid First Name !</label>
 					<br>
 							
 					<label>Last Name *</label>
-					<input type="text" id="lastname" size="30" placeholder="Enter your last name" required class="in">	
+					<input type="text" id="lastname" size="30" placeholder="Enter your last name" required class="in">
+					<label class="error-lname hide">Invalid Last Name !</label>	
 					<br>
 
 					<label>Email *</label>
 					<input type="email" id="email" size="30" placeholder="Enter your email address" class="in">	
+					<label class="error-email hide">Invalid Email Id !</label>
 					<br>
 
 					<label>Choose your password *</label>
-					<input type="password" id="password" size="30" placeholder="Password must be in 8-15 characters." maxlength="15" class="in">	
+					<input type="password" id="password" size="30" placeholder="Password must be in 8-15 characters." maxlength="15" class="in">
+					<label class="error-pwd hide">Invalid Password !</label>	
 					<br>
 
 					<label>Language </label>
@@ -57,7 +60,8 @@
 					<br>
 
 					<label>Mobile Number</label>
-					<input type="text" placeholder="Enter your mobile no" id="mobileno" size="30" maxlength="10" class="in">			
+					<input type="text" placeholder="Enter your mobile no" id="mobileno" size="30" maxlength="10" class="in">
+					<label class="error-mob hide">Invalid Mobile No !</label>			
 					<br>
 								
 					<label>Birthday *</label>
@@ -76,19 +80,21 @@
 
 						<label>Street : </label>
 						<input type="text" placeholder="Enter your street name" id="streetname" size="30" class="in">
+						<label class="error-sname hide">Invalid Street Name !</label>
 						<br>
 
 						<label>City : </label>
-						<input type="text" placeholder="Enter your city" id="city" size="30" class="in">
+						<input type="text" placeholder="Enter your city" id="cityname" size="30" class="in">
+						<label class="error-cname hide">Invalid City Name !</label>
 						<br>
 			
 						<label>Pincode : </label>
-						<input type="text" placeholder="Enter your pincode" id="pincode" size="30" class="in">		
+						<input type="text" placeholder="Enter your pincode" id="pincode" size="30" class="in">	
+						<label class="error-pin hide">Invalid Pin Code !</label>	
 						<br>
 
 						<input type="button" value="Register" name="register" onclick="myFunction()" class="reg">
 						<input type="reset" value="Cancel" name="cancel" class="can">
-				
 						
  				</fieldset>
 	
